@@ -2,10 +2,10 @@
 
 Contributors: spiraclethemes
 Tags: e-commerce, blog, custom-colors, sticky-post, one-column, custom-logo, custom-menu, entertainment, featured-images, full-width-template, left-sidebar, right-sidebar, rtl-language-support, theme-options, threaded-comments, translation-ready, two-columns, footer-widgets
-Version: 1.4.1
+Version: 1.4.3
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 6.6
+Tested up to: 6.7
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -35,7 +35,7 @@ https://www.spiraclethemes.com/own-shop-free-wordpress-theme/
 
 
 == Copyrights =
-Own Shop WordPress Theme, Copyright 2024 Spiracle Themes
+Own Shop WordPress Theme, Copyright 2025 Spiracle Themes
 Own Shop is distributed under the terms of the GNU General Public License v3
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or any later version.

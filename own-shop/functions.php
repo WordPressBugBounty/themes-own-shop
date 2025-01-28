@@ -390,6 +390,39 @@ endif;
 add_action( 'enqueue_block_editor_assets', 'own_shop_block_editor_width_styles' );
 
 
+/** 
+*plugins Required
+*/
+function own_shop_register_required_plugins() {
+
+    $plugins = array(
+      array(
+          'name'               => 'Spiraclethemes Site Library',
+          'slug'               => 'spiraclethemes-site-library',
+          'source'             => '',
+          'required'           => false,          
+          'force_activation'   => false,
+      ),    
+    );
+
+    $config = array(
+            'id'           => 'own-shop',
+            'default_path' => '',
+            'menu'         => 'tgmpa-install-plugins',
+            'has_notices'  => true,
+            'dismissable'  => true,
+            'dismiss_msg'  => '',
+            'is_automatic' => false,
+            'message'      => '',
+            'strings'      => array()
+    );
+
+    tgmpa( $plugins, $config );
+
+}
+add_action( 'tgmpa_register', 'own_shop_register_required_plugins' );
+
+
 /**
  * Customizer additions.
  */

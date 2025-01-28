@@ -1,5 +1,8 @@
 == Changelog ==
 
+v1.4.3
+-- minor fixes 
+
 v1.4.2
 -- login and signup urls fixed
 -- other minor changes 
